@@ -1,17 +1,36 @@
 body{
     font-family: 'Archivo', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 i{
     font-size: 37px;
+    color: rgb(61, 61, 61);
+}
+
+img{
+    width: 100vw;
+    height: 50vw;
+}
+
+.container{
+    margin: auto;
+}
+
+.logo{
+    height: 15vw;
+    width: 45vw;
+    float: right;
 }
 
 .dropbtn {
-    background-color: yellow;
+    background-color: rgb(255, 196, 0);
     color: white;
     font-size: 16px;
     border: none;
     width: 100vw;
+    height: 10vw;
   }
   
   .dropdown {
@@ -35,20 +54,40 @@ i{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
   
-  .dropdown:hover .dropbtn {background-color: yellow;}
+  .dropdown:hover .dropbtn {
+    background-color: rgb(255, 196, 0);
+    }
 
-  div {
+  .menu{
     width: 35px;
     height: 5px;
     background-color: white;
-    margin: 6px 0;
+    margin: 8px 0;
   }
 
-  .button{
-      background-color: yellow;
-      font-size: 30px;
-  }
+.center{
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 30px;
+    height: 12vw;
+    position: relative;
+    margin: center;
+}
