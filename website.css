@@ -1,0 +1,54 @@
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+i{
+    font-size: 37px;
+}
+
+.dropbtn {
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 100vw;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: yellow;}
+
+  div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+  .button{
+      background-color: yellow;
+      font-size: 30px;
+  }
