@@ -2,16 +2,23 @@ body{
     font-family: 'Archivo', sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 
 i{
     font-size: 37px;
     color: rgb(61, 61, 61);
+    margin-top: 5rem;
+    padding-left: 2rem;
 }
 
 img{
     width: 100vw;
     height: 50vw;
+}
+
+.info, .info2, .info3{
+  padding-left: 2rem;
 }
 
 .container{
@@ -39,20 +46,21 @@ img{
 .dropbtn {
     background-color: rgb(255, 196, 0);
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
     width: 100vw;
     height: 10vw;
+    position: sticky;
   }
   
   .dropdown {
-    position: relative;
+    position: sticky;
     display: inline-block;
   }
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: sticky;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -90,7 +98,7 @@ img{
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.1rem;
       }
       
       .topnav2 a:hover {
@@ -123,12 +131,12 @@ img{
     background-color: rgb(255, 196, 0);
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 1.1rem 10rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-size: 30px;
+    font-size: 1rem;
+    font-size: 2rem;
     height: 12vw;
     position: relative;
     margin: center;
@@ -142,6 +150,10 @@ img{
         width: 99vw;
         position: fixed;
     }
+
+    html{
+  width: 1500px;
+}
 
     .dropdown{
         display: none;
@@ -160,6 +172,7 @@ img{
         top: 46px;
         position: absolute;
         display: inline-block;
+        margin-left: 8rem;
     }
 
     i{
@@ -168,16 +181,13 @@ img{
     }
 
     .button{
-        height: 3vw;
-        width: 25vw;
-        font-size: 20px;
-        
+        display: none;
     }
     
     .text{
         display: inline-block;
         font-size: 32px;
-        height: 10vh;
+        height: 6vh;
         width: 90vh;
         text-align: center;
         margin: 0;
@@ -186,6 +196,8 @@ img{
         left: 30%;
         bottom: 100px;
         position: relative;
+        display: inline;
+        margin-top: 0.3rem;
     }
 
     .text2{
@@ -194,6 +206,55 @@ img{
         left: 30%;
         top: 30px;
         position: relative;
+        margin-top: 2rem;
     }
     
+    .info{
+      display: inline-block;
+      width: 100%;
+      grid-column-start: 1;
+      grid-row: 2;
+      grid-column-end: 2;  
+    }
+    .info2{
+      display: inline-block;
+      width: 80%;
+      grid-column-start: 2;
+      grid-row: 2;
+      grid-column-end: 3;  
+    }
+    .info3{
+      display: inline-block;
+      width: 100%;
+      grid-column-start: 3;
+      grid-row: 2;
+      grid-column-end: 4;  
+    }
+
+    #info{
+      display: inline-block;
+      width: 100%;
+      grid-column-start: 1;
+      grid-row: 1;
+      grid-column-end: 2;  
+    }
+    #info2{
+      display: inline-block;
+      width: 100%;
+      grid-column-start: 2;
+      grid-row: 1;
+      grid-column-end: 3;  
+    }
+    #info3{
+      display: inline-block;
+      width: 100%;
+      grid-column-start: 3;
+      grid-row: 1;
+      grid-column-end: 4;  
+    }
+    .inhoud{
+      display: grid;
+      margin: 0 auto; 
+      grid-template-columns: auto auto auto auto auto;  
+    }
 }
