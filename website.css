@@ -19,6 +19,62 @@ img{
   top: 40px;
 }
 
+.menubaR {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+
+li a, .dropbtn6 {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown6:hover .dropbtn6 {
+  background-color: rgb(255, 196, 0);
+}
+
+li.dropdown6 {
+  display: inline-block;
+}
+
+.dropdown-content6 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content6 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.logo-image{
+    width: 20%;
+    height: 6rem;
+    position: relative;
+    left: 44rem;
+}
+
+.dropdown-content6 a:hover {background-color: #f1f1f1;}
+
+.dropdown6:hover .dropdown-content6 {
+  display: block;
+}
+
 .info, .info2, .info3{
   padding-left: 2rem;
 }
@@ -92,9 +148,10 @@ footer{
   
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 8px 10px;
   text-decoration: none;
   display: block;
+  height: 80px;
 }
   
 .dropdown-content a:hover {
@@ -183,6 +240,7 @@ iframe{
   display: none;
 }
 
+
 /******Desktop*****/
 @media screen and (min-width:992px){
 .topnav2{
@@ -204,6 +262,10 @@ iframe{
 
 html{
   width: 1500px;
+}
+
+.logo-image{
+  display: none;
 }
 
 .dropdown{
@@ -508,5 +570,9 @@ footer{
   float: right;
   position: relative;
   top: 25rem;
+}
+
+.menubaR{
+  display: none;
 }
 }
